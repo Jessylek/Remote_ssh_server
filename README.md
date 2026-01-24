@@ -21,7 +21,9 @@ sudo usermod -aG sudo adminuser
 ### On host machine
 ssh-keygen -t ed25519
 ### Copy key to the VM 
-ssh-copy-id adminuser@SERVER_IP
+
+type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh jessyssh@192.168.150.129 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+
 ### Test
 ssh adminuser@SERVER_IP
 

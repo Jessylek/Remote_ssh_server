@@ -11,7 +11,7 @@ Prerequisites
 > sudo apt upgrade -y
 
 ## Install and enable OpenSSH
-'''sudo apt install -y openssh-server'''
+>'''sudo apt install -y openssh-server'''
 > sudo systemctl enable --now ssh
 
 ## Allow SSH through Ubuntu firewall (UFW)

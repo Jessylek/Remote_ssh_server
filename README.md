@@ -1,7 +1,8 @@
 # Remote_ssh_server
 **Project URL:** https://roadmap.sh/projects/ssh-remote-server-setup <br>
 
-These are the ke steps to setup an ssh remote connection <br>
+These are the key steps to setup an ssh remote connection <br>
+
 Prerequisites
 - Ubuntu server 24.04LTS as the remote server
 - Windows 11 as the host machine
